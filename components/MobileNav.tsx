@@ -26,7 +26,7 @@ const MobileNav = () => {
       width={36}
       height={36}
       alt='icon'
-      className='cursor-pointer'
+      className='cursor-pointer lg:hidden md:hidden'
       />
     </SheetTrigger>
     <SheetContent side="left" className='border-none bg-dark-1'>
