@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
   	extend: {
   		backgroundImage: {
+			hero: "url('/images/hero-background.png')",
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
   		},
@@ -25,6 +26,9 @@ const config: Config = {
 			},
 			blue: {
 				1:'#0E78F9'
+			},
+			sky: {
+				1:'#C9DDFF',
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
