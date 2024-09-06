@@ -29,7 +29,7 @@ const MobileNav = () => {
       className='cursor-pointer lg:hidden md:hidden'
       />
     </SheetTrigger>
-    <SheetContent side="left" className='border-none bg-dark-1'>
+    <SheetContent side="left" className='border-none bg-dark-1 text-white'>
     <Link
       href="/" 
       className='flex items-center gap-1'
@@ -55,7 +55,7 @@ const MobileNav = () => {
               href={item.route}
               key={item.label}
               className={cn(
-                'flex gap-4 items-center p-4 rounded-lg w-full max-w-60',
+                'flex gap-4 items-center text-white p-4 rounded-lg w-full max-w-60',
                 {
                   'bg-blue-1': isActive,
                 }
