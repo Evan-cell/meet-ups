@@ -1,12 +1,16 @@
+
+import StreamVideoProvider from '@/providers/StreamClientProvider'
 import React, { Children, ReactNode } from 'react'
 
 const Rootlayout = ({children}:{children : ReactNode}) => {
   return (
-    <div>
+    <main>
         
-      {children}
+     <StreamVideoProvider>
+     {children}
+     </StreamVideoProvider>
         
-    </div>
+    </main>
   )
 }
 
